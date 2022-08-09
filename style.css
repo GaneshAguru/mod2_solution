@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+@media (max-width:767px){
+
+
+    .card{
+        padding: 30px;
+    }
+    .card .chicken{
+        border-style: solid;
+        margin-right: 30px;
+        background-color: rgb(126, 119, 119);
+        margin-bottom: 30px;
+       
+    }
+    .card .chicken p{
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .card .chicken h4{
+        float: right;
+        border-width: 0px 0px 2px 2px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-style: solid;
+        background-color: rgb(244, 140, 157);
+        
+    }
+    .card .beef{
+        margin-right: 30px;
+    }
+    
+    
+    /* ----------------- */
+    .card .beef{
+        border-style: solid;
+        margin-right: 30px;
+        background-color: rgb(126, 119, 119);
+        margin-bottom: 30px;
+       
+    }
+    .card .beef p{
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .card .beef h4{
+        float: right;
+        border-width: 0px 0px 2px 2px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-style: solid;
+        background-color: brown;
+        
+    }
+    
+    /* ----------------- */
+    .card .sushi{
+        border-style: solid;
+        margin-right: 30px;
+        background-color: rgb(126, 119, 119);
+       
+    }
+    .card .sushi p{
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .card .sushi h4{
+        float: right;
+        border-width: 0px 0px 2px 2px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-style: solid;
+        background-color: rgb(230, 212, 129);
+        
+    }
+  
+
+    /* ---------------------------------------------------- */
+    
+
+}
+@media (min-width:767px) and (max-width:991px){
+
+
+
+    .card{
+        padding: 30px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: aliceblue;
+      
+    }
+    .card .chicken{
+        display: inline-block;
+        border-style: solid;
+        
+        width: 44%;
+        margin-right: 30px;
+        background-color: rgb(126, 119, 119);
+       
+    }
+    .card .chicken p{
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .card .chicken h4{
+        float: right;
+        border-width: 0px 0px 2px 2px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-style: solid;
+        background-color: rgb(244, 140, 157);
+        
+    }
+    .card .beef{
+        margin-right: 30px;
+    }
+    
+    
+    /* ----------------- */
+    .card .beef{
+        border-style: solid;
+        margin-right: 30px;
+        width: 44%;
+        display: inline-block;
+        background-color: rgb(126, 119, 119);
+       
+    }
+    .card .beef p{
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .card .beef h4{
+        
+        float: right;
+        border-width: 0px 0px 2px 2px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-style: solid ;
+        background-color: brown;
+        
+    }
+    
+    /* ----------------- */
+    .card .sushi{
+        border-style: solid;
+        margin-right: 30px;
+        background-color: rgb(126, 119, 119);
+        margin-top: 30px;
+       
+    }
+    .card .sushi p{
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .card .sushi h4{
+       
+        float: right;
+        border-width: 0px 0px 2px 2px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-style: solid;
+        background-color: rgb(230, 212, 129);
+        
+    }
+
+   
+
+}
+
+/* ------------------------------------------------- */
+
+
+
+
+
+
+
+
+@media (min-width:991px) {
+
+
+    .card{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+      
+    }
+    .card .chicken{
+        border-style: solid;
+        margin-right: 30px;
+        background-color: rgb(126, 119, 119);
+       
+    }
+    .card .chicken p{
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .card .chicken h4{
+        float: right;
+        border-width: 0px 0px 2px 2px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-style: solid;
+        background-color: rgb(244, 140, 157);
+        
+    }
+    .card .beef{
+        margin-right: 30px;
+    }
+    
+    
+    /* ----------------- */
+    .card .beef{
+        border-style: solid;
+        margin-right: 30px;
+        background-color: rgb(126, 119, 119);
+       
+    }
+    .card .beef p{
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .card .beef h4{
+        float: right;
+        border-width: 0px 0px 2px 2px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-style: solid;
+        background-color: brown;
+        
+    }
+    
+    /* ----------------- */
+    .card .sushi{
+        border-style: solid;
+        margin-right: 30px;
+        background-color: rgb(126, 119, 119);
+       
+    }
+    .card .sushi p{
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .card .sushi h4{
+        float: right;
+        border-width: 0px 0px 2px 2px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-style: solid;
+        background-color: rgb(230, 212, 129);
+        
+    }
+
+    
+
+}
+
+
+
+
